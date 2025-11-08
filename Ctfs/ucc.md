@@ -10,9 +10,9 @@ meta.
 
 We have to find the information/flag that was hidden in the ucc-meta.jpg image that was given to us. In this case lets test by running our tool in terminal called exiftool with the name of image name at hand.
 
-![Metadata Image](uccImg/2.png)
+![Metadata Image](uccImgs/2.png)
 
-![Metadata Image2](uccImg/3.png)
+![Metadata Image2](uccImgs/3.png)
 
 As we see in the second picture of our results on exiftool, the comment is the flag we were looking for in the image.
 
@@ -24,7 +24,7 @@ They’ve been trying to breach our infrastructure all morning! They’re trying
 
 flag format: uguntu{tool_version} eg uguntu{nmap_2.1}
 
-![Breached Image](uccImg/4.png)
+![Breached Image](uccImgs/4.png)
 
 When we have a look at the user-agent under the HTTP Protocal. We noticed that the tool used used is nikto version 2.1.6
 
@@ -38,7 +38,7 @@ Your organization has fallen victim to a ransomware attack. Critical files have 
 
 In order for us to analyse and see the hiden information in this image we shall use exiftool tool syntax exiftool image_name
 
-![Ransom Image](uccImg/5.png)
+![Ransom Image](uccImgs/5.png)
 
 When we look at the comment from the results of our scan, the content of the comment is the flag we were looking for.
 
